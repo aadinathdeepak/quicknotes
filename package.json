@@ -1,5 +1,13 @@
 {
+  "name": "quicknotes",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\""
+  },
   "dependencies": {
     "react-router-dom": "^7.6.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
   }
 }
